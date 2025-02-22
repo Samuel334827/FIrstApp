@@ -1,0 +1,31 @@
+.Body{
+    height: 550px;
+    background-color: #E5D0AC;
+}
+.divider{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider::before,
+.divider::after {
+  content: "";
+  width: 150px;  
+  height: 4px;
+  background-color:#6D2323; /* Adjust color as needed */
+  margin: 0 10px;
+}
+.star {
+    font-size: 18px; /* Adjust size */
+    color:#6D2323; /* Adjust color */
+}
+.header{
+    width: fit-content;
+    margin: auto;
+    color:#6D2323;
+    font-weight: 700;
+}
+.innerText{
+    color: #A31D1D;
+}

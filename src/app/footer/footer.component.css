@@ -1,0 +1,32 @@
+section{
+    background-color: #FEF9E1;
+    max-height: 220px;
+}
+.width{
+    width: fit-content;
+}
+.icons{
+    width: fit-content;
+}
+.circle{
+    border: #6D2323 1px solid;
+    color:#6D2323;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    background-color: #6D2323;
+    min-height: 50px;
+    color: #FEF9E1;
+}
+.second span{
+    display: block; 
+    transform: translateY(50%);
+}
+
+

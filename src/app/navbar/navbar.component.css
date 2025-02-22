@@ -1,0 +1,13 @@
+.headerText{
+    font-family: "Roboto", serif;
+    font-weight: 600;
+}
+.navactive{
+    background-color: #6d2323;
+    
+}
+.linkText{
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: larger;
+}

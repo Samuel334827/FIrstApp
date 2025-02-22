@@ -1,0 +1,35 @@
+:root{
+    --textcolor:#6D2323;
+}
+.Body{
+    height: 550px;
+}
+.bg-main{
+    background-color:#E5D0AC;
+    
+}
+.maintext{
+    color:#6D2323;
+}
+.divider{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider::before,
+.divider::after {
+  content: "";
+  width: 150px;  
+  height: 4px;
+  background-color:#6D2323; /* Adjust color as needed */
+  margin: 0 10px;
+}
+.star {
+    font-size: 18px; /* Adjust size */
+    color:#6D2323; /* Adjust color */
+}
+.texts{
+    font-weight: 700;
+    font-style: oblique;
+}

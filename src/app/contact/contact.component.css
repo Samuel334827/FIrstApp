@@ -1,0 +1,36 @@
+.divider{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Body{
+    background-color: #E5D0AC;
+}
+.divider::before,
+.divider::after {
+  content: "";
+  width: 150px;  
+  height: 4px;
+  background-color:#6D2323; /* Adjust color as needed */
+  margin: 0 10px;
+}
+.star {
+    font-size: 18px; /* Adjust size */
+    color:#6D2323; /* Adjust color */
+}
+
+.heading{
+    width: fit-content;
+    margin: auto;
+    font-weight: 700;
+    color: #6D2323;
+}
+.form-control{
+    
+    filter:drop-shadow( 10px 4px 10px #6D2323) !important;
+}
+button{
+    background-color: #A31D1D;
+    color: white;
+}
